@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "endiummod:endium"
+    }
+  },
+  "pattern": [
+    " E ",
+    " E ",
+    " # "
+  ],
+  "result": {
+    "item": "endiummod:endium_sword"
+  },
+  "show_notification": true
+}

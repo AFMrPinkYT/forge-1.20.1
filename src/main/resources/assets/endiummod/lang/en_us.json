@@ -1,0 +1,23 @@
+{
+  "item.endiummod.endium": "Endium",
+  "item.endiummod.unpurified_endium": "Unpurified Endium",
+  "item.endiummod.raw_endium": "Raw Endium",
+
+  "item.endiummod.endium_axe": "Endium Axe",
+  "item.endiummod.endium_pickaxe": "Endium Pickaxe",
+  "item.endiummod.endium_shovel": "Endium Shovel",
+  "item.endiummod.endium_sword": "Endium Sword",
+  "item.endiummod.endium_hoe": "Endium Hoe",
+
+  "item.endiummod.tier_1_ore_finder": "Tier 1 Ore Finder",
+  "item.endiummod.tier_2_ore_finder": "Tier 2 Ore Finder",
+  "item.endiummod.tier_3_ore_finder": "Tier 3 Ore Finder",
+  "item.endiummod.tier_4_ore_finder": "Tier 4 Ore Finder",
+  "item.endiummod.tier_5_ore_finder": "Tier 5 Ore Finder",
+  "item.endiummod.tier_6_ore_finder": "Tier 6 Ore Finder",
+
+  "block.endiummod.raw_endium_ore": "Raw Endium Ore",
+  "block.endiummod.block_of_endium": "Block of Endium",
+
+  "creativetab.tutorial_tab": "Endium Stuffs"
+}

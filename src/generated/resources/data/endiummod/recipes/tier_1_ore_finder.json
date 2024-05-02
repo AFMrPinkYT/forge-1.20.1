@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    " C ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "endiummod:tier_1_ore_finder"
+  },
+  "show_notification": true
+}

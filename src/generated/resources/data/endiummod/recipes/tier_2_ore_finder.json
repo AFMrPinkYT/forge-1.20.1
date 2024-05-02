@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "endiummod:tier_1_ore_finder"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    " I ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "endiummod:tier_2_ore_finder"
+  },
+  "show_notification": true
+}

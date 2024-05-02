@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "endiummod:tier_5_ore_finder"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    " D ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "endiummod:tier_6_ore_finder"
+  },
+  "show_notification": true
+}

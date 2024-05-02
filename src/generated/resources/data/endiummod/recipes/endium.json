@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "endiummod:block_of_endium"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "endiummod:endium"
+  }
+}

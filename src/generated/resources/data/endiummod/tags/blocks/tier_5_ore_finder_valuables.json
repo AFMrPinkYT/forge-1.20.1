@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:ores/coal",
+    "#forge:ores/iron",
+    "#forge:ores/gold",
+    "#forge:ores/redstone",
+    "#forge:ores/lapis"
+  ]
+}

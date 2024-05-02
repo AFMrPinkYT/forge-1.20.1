@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "endiummod:tier_4_ore_finder"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "pattern": [
+    " L ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "endiummod:tier_5_ore_finder"
+  },
+  "show_notification": true
+}

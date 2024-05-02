@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "endiummod:endium"
+    }
+  },
+  "pattern": [
+    " EE",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "endiummod:endium_hoe"
+  },
+  "show_notification": true
+}

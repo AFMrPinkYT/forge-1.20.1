@@ -1,0 +1,15 @@
+// 1.20.1	2024-05-02T14:40:11.5999741	Item Models: endiummod
+7a6a28c47f117d79f18595025025ad397c5b8d94 assets/endiummod/models/item/endium.json
+ceb14860eac723ddd0a2f09be1c2d38e716be777 assets/endiummod/models/item/endium_axe.json
+d73e85d144e24d7ca9e0052aab800b2fc3debcb5 assets/endiummod/models/item/endium_hoe.json
+fad0f5ad66e2dff3e4b4e978756e86eb8dd96abc assets/endiummod/models/item/endium_pickaxe.json
+65d505835891495bb4af646a773efd58ba869a26 assets/endiummod/models/item/endium_shovel.json
+7f3a825020ca2ea7bd0597f02bed963ddd37e79e assets/endiummod/models/item/endium_sword.json
+422181cc6c73a4395bbcb49285af33a17faed41a assets/endiummod/models/item/raw_endium.json
+5b053f9fab9fa58edcc87c8a395ea3c0b8e1ae44 assets/endiummod/models/item/tier_1_ore_finder.json
+9da3ecef0916f07837b7ba8fcb8689abf6149e72 assets/endiummod/models/item/tier_2_ore_finder.json
+da72cb3ca12f497014b7a13657f7d2afdf37eb2f assets/endiummod/models/item/tier_3_ore_finder.json
+853f99d96a9755ab9227a1c14fdb9a4a69bf069a assets/endiummod/models/item/tier_4_ore_finder.json
+292d89b075244648284ffe24d6adefec4c6cae71 assets/endiummod/models/item/tier_5_ore_finder.json
+e359ed1afb16e7889daac7ae41b265afc2a8949a assets/endiummod/models/item/tier_6_ore_finder.json
+edf2c31bf6c48db8676a0029ab7f3c1fcc8ecb62 assets/endiummod/models/item/unpurified_endium.json

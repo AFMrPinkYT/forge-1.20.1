@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "endiummod:tier_3_ore_finder"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    " R ",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "endiummod:tier_4_ore_finder"
+  },
+  "show_notification": true
+}

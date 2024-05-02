@@ -1,0 +1,10 @@
+// 1.20.1	2024-05-02T14:40:11.6019808	Tags for minecraft:block mod id endiummod
+437a79d47a2146e1ee7dbe659fa71c81ff7d2b77 data/endiummod/tags/blocks/tier_1_ore_finder_valuables.json
+702d1b1cff1117369d5f459011447c7566f11fda data/endiummod/tags/blocks/tier_2_ore_finder_valuables.json
+98836dd348e0ddaacb66c4058b6b74ce46cbe29a data/endiummod/tags/blocks/tier_3_ore_finder_valuables.json
+c73e5163390822e694eb2e5cb487a0760c5daf77 data/endiummod/tags/blocks/tier_4_ore_finder_valuables.json
+33fea4fc1982756e86d8f9a94ec64641ba3aa484 data/endiummod/tags/blocks/tier_5_ore_finder_valuables.json
+9c21db71d595844b0667e4142130d8ef89d81e5d data/endiummod/tags/blocks/tier_6_ore_finder_valuables.json
+aa454107bcb37ece7a48d70c4aad05415fc4386d data/forge/tags/blocks/needs_netherite_tool.json
+d34a1a9ec56019d104113f9ab24a5aef84f59006 data/minecraft/tags/blocks/mineable/pickaxe.json
+b32e536774737a9a80517c62f311a0f2811721b6 data/minecraft/tags/blocks/needs_iron_tool.json

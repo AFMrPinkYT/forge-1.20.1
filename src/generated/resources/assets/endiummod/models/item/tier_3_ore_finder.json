@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "endiummod:item/tier_3_ore_finder"
+  }
+}
