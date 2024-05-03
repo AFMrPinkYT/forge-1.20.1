@@ -32,7 +32,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ENDIUM, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> ENDIUM_HELMET = ITEMS.register("endium_helmet",
-            () -> new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> ENDIUM_CHESTPLATE = ITEMS.register("endium_chestplate",
             () -> new ArmorItem(ModArmorMaterials.ENDIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> ENDIUM_LEGGINGS = ITEMS.register("endium_leggings",
