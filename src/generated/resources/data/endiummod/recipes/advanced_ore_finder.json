@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "minecraft:ancient_debris"
+    },
+    "D": {
+      "item": "endiummod:endium"
+    }
+  },
+  "pattern": [
+    " D ",
+    " A ",
+    " # "
+  ],
+  "result": {
+    "item": "endiummod:advanced_ore_finder"
+  },
+  "show_notification": true
+}

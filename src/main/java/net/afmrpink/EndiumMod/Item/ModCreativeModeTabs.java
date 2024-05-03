@@ -1,6 +1,6 @@
 package net.afmrpink.EndiumMod.Item;
 
-import net.afmrpink.EndiumMod.EndiumMod.Block.ModBlocks;
+import net.afmrpink.EndiumMod.Block.ModBlocks;
 import net.afmrpink.EndiumMod.EndiumMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -28,12 +28,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDIUM_SWORD.get());
                         output.accept(ModItems.ENDIUM_HOE.get());
 
+                        output.accept(ModItems.ENDIUM_HELMET.get());
+                        output.accept(ModItems.ENDIUM_CHESTPLATE.get());
+                        output.accept(ModItems.ENDIUM_LEGGINGS.get());
+                        output.accept(ModItems.ENDIUM_BOOTS.get());
+
                         output.accept(ModItems.TIER_1_ORE_FINDER.get());
                         output.accept(ModItems.TIER_2_ORE_FINDER.get());
                         output.accept(ModItems.TIER_3_ORE_FINDER.get());
                         output.accept(ModItems.TIER_4_ORE_FINDER.get());
                         output.accept(ModItems.TIER_5_ORE_FINDER.get());
                         output.accept(ModItems.TIER_6_ORE_FINDER.get());
+                        output.accept(ModItems.ADVANCED_ORE_FINDER.get());
 
                         output.accept(ModBlocks.RAW_ENDIUM_ORE.get());
                         output.accept(ModBlocks.BLOCK_OF_ENDIUM.get());

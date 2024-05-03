@@ -1,6 +1,6 @@
 package net.afmrpink.EndiumMod.Item.custom;
 
-import net.afmrpink.EndiumMod.EndiumMod.util.ModTags;
+import net.afmrpink.EndiumMod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -24,30 +24,29 @@ public class Tier1OreFinderItem extends Item {
 
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
-        if(pContext.getLevel().isClientSide()) {
+        if(!pContext.getLevel().isClientSide()) {
             BlockPos positionClicked = pContext.getClickedPos();
             Player player = pContext.getPlayer();
-            boolean foundblock = false;
+            boolean foundBlock = false;
 
             for(int i = 0; i <= positionClicked.getY() + 64; i++) {
                 BlockState state = pContext.getLevel().getBlockState(positionClicked.below(i));
 
-                if(isValuableBlock(state)) {
+                if (isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.below(i), player, state.getBlock());
-                    foundblock = true;
+                    foundBlock = true;
 
                     break;
                 }
             }
 
-            if(!foundblock) {
+            if(!foundBlock) {
                 player.sendSystemMessage(Component.literal("No valuables Found!"));
             }
         }
 
         pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
                 player -> player.broadcastBreakEvent(player.getUsedItemHand()));
-
 
         return InteractionResult.SUCCESS;
     }

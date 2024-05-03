@@ -9,12 +9,18 @@
   "item.endiummod.endium_sword": "Endium Sword",
   "item.endiummod.endium_hoe": "Endium Hoe",
 
+  "item.endiummod.endium_helmet": "Endium Helmet",
+  "item.endiummod.endium_chestplate": "Endium Chestplate",
+  "item.endiummod.endium_leggings": "Endium Leggings",
+  "item.endiummod.endium_boots": "Endium Boots",
+
   "item.endiummod.tier_1_ore_finder": "Tier 1 Ore Finder",
   "item.endiummod.tier_2_ore_finder": "Tier 2 Ore Finder",
   "item.endiummod.tier_3_ore_finder": "Tier 3 Ore Finder",
   "item.endiummod.tier_4_ore_finder": "Tier 4 Ore Finder",
   "item.endiummod.tier_5_ore_finder": "Tier 5 Ore Finder",
   "item.endiummod.tier_6_ore_finder": "Tier 6 Ore Finder",
+  "item.endiummod.advanced_ore_finder": "Advanced Ore Finder",
 
   "block.endiummod.raw_endium_ore": "Raw Endium Ore",
   "block.endiummod.block_of_endium": "Block of Endium",

@@ -1,14 +1,15 @@
 package net.afmrpink.EndiumMod.datagen;
 
-import net.afmrpink.EndiumMod.EndiumMod.Block.ModBlocks;
-import net.afmrpink.EndiumMod.EndiumMod.Item.ModItems;
+import net.afmrpink.EndiumMod.Block.ModBlocks;
 import net.afmrpink.EndiumMod.EndiumMod;
+import net.afmrpink.EndiumMod.Item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -119,6 +120,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', ModItems.TIER_5_ORE_FINDER.get())
                 .unlockedBy(getHasName(ModItems.TIER_5_ORE_FINDER.get()), has(Items.DIAMOND_BLOCK))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ADVANCED_ORE_FINDER.get())
+                .pattern(" D ")
+                .pattern(" A ")
+                .pattern(" # ")
+                .define('D', ModItems.ENDIUM.get())
+                .define('A', Items.ANCIENT_DEBRIS)
+                .define('#', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.ANCIENT_DEBRIS))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDIUM.get(), 9)

@@ -1,7 +1,7 @@
 package net.afmrpink.EndiumMod.Block;
 
-import net.afmrpink.EndiumMod.EndiumMod.Item.ModItems;
 import net.afmrpink.EndiumMod.EndiumMod;
+import net.afmrpink.EndiumMod.Item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

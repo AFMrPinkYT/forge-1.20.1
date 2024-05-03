@@ -1,4 +1,5 @@
-// 1.20.1	2024-05-02T15:02:20.7205579	Recipes
+// 1.20.1	2024-05-02T22:49:07.0849285	Recipes
+b9ce378aa53302d71d85623c9c2731e13f7406c1 data/endiummod/advancements/recipes/misc/advanced_ore_finder.json
 aca3015d47a3106d07d59321efc6186646eee942 data/endiummod/advancements/recipes/misc/block_of_endium.json
 461abd1a7b70dd2edce54ba2981e4d6ef0ae001d data/endiummod/advancements/recipes/misc/endium.json
 127d719b7646ac04755a0259b9749ab18d6eafa0 data/endiummod/advancements/recipes/misc/endium_axe.json
@@ -14,6 +15,7 @@ be47800ed0f52781f56675ba17f9952dc31ea9f9 data/endiummod/advancements/recipes/mis
 37a38ccae3727ce98bf7e530cb48d920fc08c060 data/endiummod/advancements/recipes/misc/tier_4_ore_finder.json
 96921b8d37ae3c51c75c251c256579940e941c68 data/endiummod/advancements/recipes/misc/tier_5_ore_finder.json
 967976e28d9e6972f3e0404ee3fded5c1c3e997b data/endiummod/advancements/recipes/misc/tier_6_ore_finder.json
+0fb6b1b6654cd23065b9a106cb7c460cc24dba59 data/endiummod/recipes/advanced_ore_finder.json
 695481f003fa7a0054c83fba422474bea3e729dc data/endiummod/recipes/block_of_endium.json
 0eaa3792d80ae0108cdc35920383c0f296d5268a data/endiummod/recipes/endium.json
 5db634228bac9b693a210c5f4ce5f71f96c4b236 data/endiummod/recipes/endium_axe.json

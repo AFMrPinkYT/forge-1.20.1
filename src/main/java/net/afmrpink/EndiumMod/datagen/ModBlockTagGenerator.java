@@ -1,8 +1,8 @@
 package net.afmrpink.EndiumMod.datagen;
 
-import net.afmrpink.EndiumMod.EndiumMod.Block.ModBlocks;
+import net.afmrpink.EndiumMod.Block.ModBlocks;
 import net.afmrpink.EndiumMod.EndiumMod;
-import net.afmrpink.EndiumMod.EndiumMod.util.ModTags;
+import net.afmrpink.EndiumMod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -47,6 +47,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .addTag(Tags.Blocks.ORES_REDSTONE)
                 .addTag(Tags.Blocks.ORES_LAPIS)
                 .addTag(Tags.Blocks.ORES_DIAMOND);
+        this.tag(ModTags.Blocks.ADVANCED_ORE_FINDER_VALUABLES)
+                .add(ModBlocks.RAW_ENDIUM_ORE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BLOCK_OF_ENDIUM.get());

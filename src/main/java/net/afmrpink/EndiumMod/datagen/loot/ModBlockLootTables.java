@@ -1,7 +1,7 @@
 package net.afmrpink.EndiumMod.datagen.loot;
 
-import net.afmrpink.EndiumMod.EndiumMod.Block.ModBlocks;
-import net.afmrpink.EndiumMod.EndiumMod.Item.ModItems;
+import net.afmrpink.EndiumMod.Block.ModBlocks;
+import net.afmrpink.EndiumMod.Item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;

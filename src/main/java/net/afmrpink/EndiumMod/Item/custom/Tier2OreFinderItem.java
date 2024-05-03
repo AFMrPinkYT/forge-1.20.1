@@ -1,6 +1,6 @@
 package net.afmrpink.EndiumMod.Item.custom;
 
-import net.afmrpink.EndiumMod.EndiumMod.util.ModTags;
+import net.afmrpink.EndiumMod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

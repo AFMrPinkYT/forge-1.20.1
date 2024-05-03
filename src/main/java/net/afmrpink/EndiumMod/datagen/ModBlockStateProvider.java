@@ -1,6 +1,6 @@
 package net.afmrpink.EndiumMod.datagen;
 
-import net.afmrpink.EndiumMod.EndiumMod.Block.ModBlocks;
+import net.afmrpink.EndiumMod.Block.ModBlocks;
 import net.afmrpink.EndiumMod.EndiumMod;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
