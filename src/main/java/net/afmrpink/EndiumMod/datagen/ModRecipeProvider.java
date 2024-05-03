@@ -135,6 +135,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.BLOCK_OF_ENDIUM.get())
                 .unlockedBy(getHasName(ModBlocks.BLOCK_OF_ENDIUM.get()), has(ModBlocks.BLOCK_OF_ENDIUM.get()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ADVANCED_ORE_FINDER.get())
+                .pattern("UUU")
+                .pattern("UNU")
+                .pattern("UUU")
+                .define('U', ModItems.UNPURIFIED_ENDIUM.get())
+                .define('A', Items.NETHERITE_INGOT)
+                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.ANCIENT_DEBRIS))
+                .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
