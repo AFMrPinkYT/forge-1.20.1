@@ -130,19 +130,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('#', Items.STICK)
                 .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.ANCIENT_DEBRIS))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDIUM_PURIFIER.get())
+                .pattern("EGE")
+                .pattern("RNR")
+                .pattern("RIR")
+                .define('E', ModItems.ENDIUM.get())
+                .define('N', Items.NETHERITE_INGOT)
+                .define('R', Items.REDSTONE)
+                .define('I', Items.IRON_BLOCK)
+                .define('G', Items.GOLD_BLOCK)
+                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.NETHERITE_INGOT))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAW_ENDIUM.get())
+                .pattern("EEE")
+                .pattern("ENE")
+                .pattern("EEE")
+                .define('E', ModItems.UNPURIFIED_ENDIUM.get())
+                .define('N', Items.NETHERITE_SCRAP)
+                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.NETHERITE_INGOT))
+                .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDIUM.get(), 9)
                 .requires(ModBlocks.BLOCK_OF_ENDIUM.get())
                 .unlockedBy(getHasName(ModBlocks.BLOCK_OF_ENDIUM.get()), has(ModBlocks.BLOCK_OF_ENDIUM.get()))
                 .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ADVANCED_ORE_FINDER.get())
-                .pattern("UUU")
-                .pattern("UNU")
-                .pattern("UUU")
-                .define('U', ModItems.UNPURIFIED_ENDIUM.get())
-                .define('A', Items.NETHERITE_INGOT)
-                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.ANCIENT_DEBRIS))
-                .save(pWriter);
+
 
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "endiummod:unpurified_endium"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ENE",
+    "EEE"
+  ],
+  "result": {
+    "item": "endiummod:raw_endium"
+  },
+  "show_notification": true
+}

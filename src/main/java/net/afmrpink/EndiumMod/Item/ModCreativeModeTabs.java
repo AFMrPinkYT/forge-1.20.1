@@ -43,6 +43,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.RAW_ENDIUM_ORE.get());
                         output.accept(ModBlocks.BLOCK_OF_ENDIUM.get());
+
+                        output.accept(ModBlocks.ENDIUM_PURIFIER.get());
                     })
                     .build());
 

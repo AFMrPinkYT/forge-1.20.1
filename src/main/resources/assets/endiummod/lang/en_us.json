@@ -25,5 +25,8 @@
   "block.endiummod.raw_endium_ore": "Raw Endium Ore",
   "block.endiummod.block_of_endium": "Block of Endium",
 
+  "block.endiummod.endium_purifier": "Endium Purifier",
+  "block.endiummod.endium_super_smelter": "Endium Super Smelter",
+
   "creativetab.tutorial_tab": "Endium Stuffs"
 }

@@ -1,3 +1,4 @@
-// 1.20.1	2024-05-02T14:40:11.5955668	Loot Tables
+// 1.20.1	2024-05-03T21:30:06.1986704	Loot Tables
 5591d060fea582f004080028be70ce0ef37a78f5 data/endiummod/loot_tables/blocks/block_of_endium.json
+1b4f9d30210878a2a0e5955d303098f25abc0a90 data/endiummod/loot_tables/blocks/endium_purifier.json
 b795cb9f14b2abc35037c19e203cde841417be69 data/endiummod/loot_tables/blocks/raw_endium_ore.json

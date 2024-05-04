@@ -2,8 +2,13 @@ package net.afmrpink.EndiumMod;
 
 import com.mojang.logging.LogUtils;
 import net.afmrpink.EndiumMod.Block.ModBlocks;
+import net.afmrpink.EndiumMod.Block.custom.entity.ModBlockEntities;
 import net.afmrpink.EndiumMod.Item.ModCreativeModeTabs;
 import net.afmrpink.EndiumMod.Item.ModItems;
+import net.afmrpink.EndiumMod.screen.EndiumPurifierScreen;
+import net.afmrpink.EndiumMod.screen.EndiumSuperSmelterScreen;
+import net.afmrpink.EndiumMod.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,10 +31,13 @@ public class EndiumMod {
     public EndiumMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
-
         ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -59,6 +67,8 @@ public class EndiumMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            MenuScreens.register(ModMenuTypes.ENDIUM_PURIFIER_MENU.get(), EndiumPurifierScreen::new);
+            MenuScreens.register(ModMenuTypes.ENDIUM_SUPER_SMELTER_MENU.get(), EndiumSuperSmelterScreen::new);
         }
     }
 }

@@ -1,5 +1,6 @@
 package net.afmrpink.EndiumMod.Block;
 
+import net.afmrpink.EndiumMod.Block.custom.EndiumPurifier;
 import net.afmrpink.EndiumMod.EndiumMod;
 import net.afmrpink.EndiumMod.Item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -24,6 +25,11 @@ public class ModBlocks {
                     .strength(5f)));
     public static final RegistryObject<Block> BLOCK_OF_ENDIUM = registerBlock("block_of_endium",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> ENDIUM_PURIFIER = registerBlock("endium_purifier",
+            () -> new EndiumPurifier(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> ENDIUM_SUPER_SMELTER = registerBlock("endium_super_smelter",
+            () -> new EndiumPurifier(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
