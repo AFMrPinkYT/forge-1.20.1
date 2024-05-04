@@ -45,6 +45,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOCK_OF_ENDIUM.get());
 
                         output.accept(ModBlocks.ENDIUM_PURIFIER.get());
+                        output.accept(ModBlocks.ENDIUM_SUPER_SMELTER.get());
                     })
                     .build());
 

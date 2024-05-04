@@ -1,6 +1,7 @@
 package net.afmrpink.EndiumMod.Block;
 
 import net.afmrpink.EndiumMod.Block.custom.EndiumPurifier;
+import net.afmrpink.EndiumMod.Block.custom.EndiumSuperSmelter;
 import net.afmrpink.EndiumMod.EndiumMod;
 import net.afmrpink.EndiumMod.Item.ModItems;
 import net.minecraft.world.item.BlockItem;

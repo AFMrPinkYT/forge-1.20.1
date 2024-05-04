@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.BLOCK_OF_ENDIUM.get());
         this.dropSelf(ModBlocks.ENDIUM_PURIFIER.get());
+        this.dropSelf(ModBlocks.ENDIUM_SUPER_SMELTER.get());
 
         this.add(ModBlocks.RAW_ENDIUM_ORE.get(),
             block -> createOreDrop(ModBlocks.RAW_ENDIUM_ORE.get(), ModItems.RAW_ENDIUM.get()));

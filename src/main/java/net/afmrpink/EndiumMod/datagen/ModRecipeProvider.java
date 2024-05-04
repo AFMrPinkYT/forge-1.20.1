@@ -23,8 +23,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDIUM.get(), 0.25f, 200, "sapphire");
-        oreBlasting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDIUM.get(), 0.25f, 100, "sapphire");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLOCK_OF_ENDIUM.get())
                 .pattern("EEE")
@@ -135,6 +133,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("RNR")
                 .pattern("RIR")
                 .define('E', ModItems.ENDIUM.get())
+                .define('N', Items.NETHERITE_INGOT)
+                .define('R', Items.REDSTONE)
+                .define('I', Items.IRON_BLOCK)
+                .define('G', Items.GOLD_BLOCK)
+                .unlockedBy(getHasName(ModItems.ENDIUM.get()), has(Items.NETHERITE_INGOT))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDIUM_SUPER_SMELTER.get())
+                .pattern("UGU")
+                .pattern("UNU")
+                .pattern("RIR")
+                .define('U', ModItems.UNPURIFIED_ENDIUM.get())
                 .define('N', Items.NETHERITE_INGOT)
                 .define('R', Items.REDSTONE)
                 .define('I', Items.IRON_BLOCK)

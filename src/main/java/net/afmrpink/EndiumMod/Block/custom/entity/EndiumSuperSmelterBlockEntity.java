@@ -97,7 +97,7 @@ public class EndiumSuperSmelterBlockEntity extends BlockEntity implements MenuPr
 
     @Override
     public Component getDisplayName() {
-        return Component.translatable("block.endiummod.endium_purifier");
+        return Component.translatable("block.endiummod.endium_super_smelter");
     }
 
     @Nullable

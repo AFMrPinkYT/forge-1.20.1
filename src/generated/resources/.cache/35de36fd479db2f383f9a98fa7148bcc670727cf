@@ -1,9 +1,11 @@
-// 1.20.1	2024-05-03T21:46:45.0239179	Block States: endiummod
+// 1.20.1	2024-05-04T12:59:01.6857014	Block States: endiummod
 baff554d770842c40f685b3cdd2ded68b92db0cc assets/endiummod/blockstates/block_of_endium.json
 15869269d3906d9740ea7fc4f2f59d85c7ab19f6 assets/endiummod/blockstates/endium_purifier.json
+06a7ea6c7f368c289f29a7d7123df0c14866857f assets/endiummod/blockstates/endium_super_smelter.json
 de9cbfdffa4b9930c39a2bde6cb19df33dd6c66e assets/endiummod/blockstates/raw_endium_ore.json
 27c58d151dfb18e6c2e89eceb63a59cbefc6a1fb assets/endiummod/models/block/block_of_endium.json
 4f06126d234e2e5e351854e6019cfb963b210968 assets/endiummod/models/block/raw_endium_ore.json
 d1314283518b4c863998c255d9802cf70b7e52ad assets/endiummod/models/item/block_of_endium.json
 0367b1e7e243f3156a64e182eb2534ed82151d31 assets/endiummod/models/item/endium_purifier.json
+a2cb0ddc242c30dd1586ef7c44e8be755a02f4be assets/endiummod/models/item/endium_super_smelter.json
 585166ad6176691fd04ea1d3151f5ae117078871 assets/endiummod/models/item/raw_endium_ore.json
