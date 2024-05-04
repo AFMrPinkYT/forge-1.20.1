@@ -30,7 +30,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDIUM_PURIFIER = registerBlock("endium_purifier",
             () -> new EndiumPurifier(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> ENDIUM_SUPER_SMELTER = registerBlock("endium_super_smelter",
-            () -> new EndiumPurifier(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            () -> new EndiumSuperSmelter(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
