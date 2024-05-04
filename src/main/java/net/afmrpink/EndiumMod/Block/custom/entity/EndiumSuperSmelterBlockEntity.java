@@ -2,6 +2,7 @@ package net.afmrpink.EndiumMod.Block.custom.entity;
 
 import net.afmrpink.EndiumMod.Item.ModItems;
 import net.afmrpink.EndiumMod.screen.EndiumPurifierMenu;
+import net.afmrpink.EndiumMod.screen.EndiumSuperSmelterMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -103,7 +104,7 @@ public class EndiumSuperSmelterBlockEntity extends BlockEntity implements MenuPr
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player player) {
-        return new EndiumPurifierMenu(pContainerId, pPlayerInventory, this, this.data);
+        return new EndiumSuperSmelterMenu(pContainerId, pPlayerInventory, this, this.data);
     }
 
     @Override

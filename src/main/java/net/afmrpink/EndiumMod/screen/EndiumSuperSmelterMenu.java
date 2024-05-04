@@ -23,7 +23,7 @@ public class EndiumSuperSmelterMenu extends AbstractContainerMenu {
     }
 
     public EndiumSuperSmelterMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
-        super(ModMenuTypes.ENDIUM_PURIFIER_MENU.get(), pContainerId);
+        super(ModMenuTypes.ENDIUM_SUPER_SMELTER_MENU.get(), pContainerId);
         checkContainerSize(inv, 2);
         blockEntity = ((EndiumSuperSmelterBlockEntity) entity);
         this.level = inv.player.level();
