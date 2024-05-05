@@ -1,6 +1,7 @@
 package net.afmrpink.EndiumMod.Block.custom.entity;
 
 import net.afmrpink.EndiumMod.Item.ModItems;
+import net.afmrpink.EndiumMod.recipe.EndiumSuperSmelterRecipe;
 import net.afmrpink.EndiumMod.screen.EndiumPurifierMenu;
 import net.afmrpink.EndiumMod.screen.EndiumSuperSmelterMenu;
 import net.minecraft.core.BlockPos;
@@ -26,6 +27,8 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class EndiumSuperSmelterBlockEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(2);
@@ -141,7 +144,9 @@ public class EndiumSuperSmelterBlockEntity extends BlockEntity implements MenuPr
     }
 
     private void craftItem() {
-        ItemStack result = new ItemStack(ModItems.ENDIUM.get(), 1);
+        Optional<EndiumSuperSmelterRecipe> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().getResultItem(null);
+
         this.itemHandler.extractItem(INPUT_SLOT, 1, false);
 
         this.itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
@@ -149,10 +154,23 @@ public class EndiumSuperSmelterBlockEntity extends BlockEntity implements MenuPr
     }
 
     private boolean hasRecipe() {
-        boolean hasCraftingItem = this.itemHandler.getStackInSlot(INPUT_SLOT).getItem() == ModItems.RAW_ENDIUM.get();
-        ItemStack result = new ItemStack(ModItems.ENDIUM.get());
+        Optional<EndiumSuperSmelterRecipe> recipe = getCurrentRecipe();
 
-        return hasCraftingItem && canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntOutputSlot(result.getItem());
+        if(recipe.isEmpty()) {
+            return false;
+        }
+        ItemStack result = recipe.get().getResultItem(getLevel().registryAccess());
+
+        return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntOutputSlot(result.getItem());
+    }
+
+    private Optional<EndiumSuperSmelterRecipe> getCurrentRecipe() {
+        SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
+        for(int i = 0; i < itemHandler.getSlots(); i++) {
+            inventory.setItem(i, this.itemHandler.getStackInSlot(i));
+        }
+
+        return this.level.getRecipeManager().getRecipeFor(EndiumSuperSmelterRecipe.Type.INSTANCE, inventory, level);
     }
 
     private boolean canInsertItemIntOutputSlot(Item item) {

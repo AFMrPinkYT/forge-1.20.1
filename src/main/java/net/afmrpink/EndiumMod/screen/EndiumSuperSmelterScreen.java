@@ -20,6 +20,7 @@ public class EndiumSuperSmelterScreen extends AbstractContainerScreen<EndiumSupe
     @Override
     protected void init() {
         super.init();
+        this.titleLabelX = 10000;
     }
 
     @Override

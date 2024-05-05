@@ -1,0 +1,12 @@
+{
+  "type": "endiummod:endium_super_smelter",
+  "ingredients": [
+    {
+      "item": "endiummod:raw_endium"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "endiummod:endium"
+  }
+}

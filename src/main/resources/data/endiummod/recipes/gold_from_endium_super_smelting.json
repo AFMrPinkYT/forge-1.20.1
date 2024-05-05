@@ -1,0 +1,12 @@
+{
+  "type": "endiummod:endium_super_smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "minecraft:gold_ingot"
+  }
+}

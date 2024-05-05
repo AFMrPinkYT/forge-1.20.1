@@ -5,6 +5,7 @@ import net.afmrpink.EndiumMod.Block.ModBlocks;
 import net.afmrpink.EndiumMod.Block.custom.entity.ModBlockEntities;
 import net.afmrpink.EndiumMod.Item.ModCreativeModeTabs;
 import net.afmrpink.EndiumMod.Item.ModItems;
+import net.afmrpink.EndiumMod.recipe.ModRecipes;
 import net.afmrpink.EndiumMod.screen.EndiumPurifierScreen;
 import net.afmrpink.EndiumMod.screen.EndiumSuperSmelterScreen;
 import net.afmrpink.EndiumMod.screen.ModMenuTypes;
@@ -38,6 +39,7 @@ public class EndiumMod {
 
         ModMenuTypes.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
