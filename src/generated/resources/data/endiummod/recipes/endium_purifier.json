@@ -11,16 +11,16 @@
     "I": {
       "item": "minecraft:iron_block"
     },
-    "N": {
-      "item": "minecraft:netherite_ingot"
-    },
     "R": {
       "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "endiummod:endium_super_smelter"
     }
   },
   "pattern": [
     "EGE",
-    "RNR",
+    "RSR",
     "RIR"
   ],
   "result": {

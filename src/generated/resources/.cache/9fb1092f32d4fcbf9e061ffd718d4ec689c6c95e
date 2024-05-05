@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-04T14:45:12.5559851	Recipes
+// 1.20.1	2024-05-04T22:56:36.1196019	Recipes
 b9ce378aa53302d71d85623c9c2731e13f7406c1 data/endiummod/advancements/recipes/misc/advanced_ore_finder.json
 aca3015d47a3106d07d59321efc6186646eee942 data/endiummod/advancements/recipes/misc/block_of_endium.json
 461abd1a7b70dd2edce54ba2981e4d6ef0ae001d data/endiummod/advancements/recipes/misc/endium.json
@@ -22,7 +22,7 @@ be47800ed0f52781f56675ba17f9952dc31ea9f9 data/endiummod/advancements/recipes/mis
 5db634228bac9b693a210c5f4ce5f71f96c4b236 data/endiummod/recipes/endium_axe.json
 61d6f5a3cdbf03079d2e10fbc208b5b60d08d2ff data/endiummod/recipes/endium_hoe.json
 42b3776811f77665d63ef8858c7d01e8677a7ac6 data/endiummod/recipes/endium_pickaxe.json
-76ef60edb4dac7992debddccb200f847fb48b6e0 data/endiummod/recipes/endium_purifier.json
+79f3fa6c2d4c90bd05d515e7ea6e0eb6cc87ec32 data/endiummod/recipes/endium_purifier.json
 22a0ae108c3f3eb85530e83fd1ab7c323864ebc7 data/endiummod/recipes/endium_shovel.json
 b963ced6ba26349cb6b76842540a950c9544ccd1 data/endiummod/recipes/endium_super_smelter.json
 a450b05ce97ec23f7cd6f48f26fd250b3f9b7f12 data/endiummod/recipes/endium_sword.json

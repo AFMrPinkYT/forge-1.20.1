@@ -130,10 +130,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDIUM_PURIFIER.get())
                 .pattern("EGE")
-                .pattern("RNR")
+                .pattern("RSR")
                 .pattern("RIR")
                 .define('E', ModItems.ENDIUM.get())
-                .define('N', Items.NETHERITE_INGOT)
+                .define('S', ModBlocks.ENDIUM_SUPER_SMELTER.get())
                 .define('R', Items.REDSTONE)
                 .define('I', Items.IRON_BLOCK)
                 .define('G', Items.GOLD_BLOCK)
